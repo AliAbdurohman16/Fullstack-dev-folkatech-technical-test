@@ -15,6 +15,4 @@ use App\Http\Controllers\API\AuthController;
 |
 */
 
-Route::middleware('api')->group(function () {
-    Route::post('register', [AuthController::class, 'register']);
-});
+Route::post('register', [AuthController::class, 'register']);
