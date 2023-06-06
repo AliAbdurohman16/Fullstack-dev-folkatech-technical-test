@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link href="dist/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="justify-content-end">
+            <div class="search-container mt-1 mb-1">
+                <form action="" method="get">
+                    <input type="text" placeholder="Cari produk" class="search-input">
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+    
+            <div class="icon-container">
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-bag-shopping"></i></a>
+                <div class="dropdown">
+                    <a href="#" class="user-icon"><i class="far fa-user"></i>  &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="active">BELANJA &#9662;</a>
+                    <div class="dropdown-content right">
+                      <a href="#">Submenu 1</a>
+                      <a href="#">Submenu 2</a>
+                      <a href="#">Submenu 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="breadcrumbs">
+            <a href="#">Home</a> >>
+            <span class="active">HARIO CAFE PRESS SLIM GREY 240ML</span>
+        </div> 
+
+        <div class="container-fluid mt-4 mb-2">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="container-fluid">
+                        <img class="product-image-rounded border-image mb-2" src="images/product1.png" alt="Product Image">
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider">
+                          <div class="slider-item">
+                            <img src="images/product1.png" alt="Product Image 1">
+                          </div>
+                          <div class="slider-item">
+                            <img src="images/product1.png" alt="Product Image 2">
+                          </div>
+                          <div class="slider-item">
+                            <img src="images/product1.png" alt="Product Image 3">
+                          </div>
+                        </div>
+                        <div class="slider-controls">
+                            <button class="prev-button"><i class="fas fa-chevron-left prev-icon"></i></button>
+                            <button class="next-button"><i class="fas fa-chevron-right next-icon"></i></button>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-7">
+                    <div class="container-fluid">
+                        <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                        <p class="product-category">UBRUKOPI</p>
+                        <div class="rating">
+                            <span class="star active"><i class="fas fa-star"></i></span>
+                            <span class="star active"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(2)</span>
+                        </div>
+                        <p class="product-price">Rp 19.999</p>
+                        <span class="product-stock"><i class="far fa-square-check"></i> Tersedia</span>
+                        <div class="qty-container mb-3">
+                            <div class="qty mr-3">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" class="qty-input" min="1" value="1" />
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                            <button class="btn-cart mr-3">Tambah ke Keranjang</button>
+                            <button class="btn-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                        <p class="product-description">French Press dari Hario berbahan dasar kaca berwarna 
+                            abu-abu di desain dengan bentuk yang ramping dan menarik. 
+                            sangat cocok untuk membuat 1-2 gelas kopi.</p>
+                    </div>
+                </div>
+                <div class="tab-container mt-2 mb-2">
+                    <div class="tab">
+                        <button class="tab-btn active" data-tab="deskripsi">Deskripsi</button>
+                        <button class="tab-btn" data-tab="informasi">Informasi</button>
+                    </div>
+                    <div class="tab-content active" id="deskripsi">
+                        <p class="product-description">French Press dari Hario berbahan dasar kaca berwarna 
+                            abu-abu di desain dengan bentuk yang ramping dan menarik. 
+                            sangat cocok untuk membuat 1-2 gelas kopi.</p>
+                    </div>
+                    <div class="tab-content" id="informasi">
+                        <ul>
+                            <p class="product-description">Spesifikasi: <br>
+                                Dimensi : 11x16,5x8cm <br>
+                                Berat :350gr <br>
+                                Kapasitas : (240ml) <br>
+                                Warna : Abu-abu / Grey <br>
+                                Brand : Hario</p>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="related-product">
+                    <div class="title mb-5">REKOMENDASI UNTUK ANDA</div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="center-wrapper">
+                                <div class="product-wrapper">
+                                    <div class="card mb-2">
+                                        <div class="card-body">
+                                            <img class="product-image" src="images/product1.png" alt="Product Image">
+                                            <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                                            <p class="product-category">UBRUKOPI</p>
+                                            <div class="rating">
+                                                <span class="star active"><i class="fas fa-star"></i></span>
+                                                <span class="star active"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="rating-count">(2)</span>
+                                            </div>
+                                            <p class="product-price">Rp 19.999</p>
+                                            <div class="icon">
+                                                <i class="far fa-heart mr-3"></i>
+                                                <i class="fas fa-shopping-bag"></i>
+                                            </div>
+                                        </div>
+                                    </div>                                                             
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="center-wrapper">
+                                <div class="product-wrapper">
+                                    <div class="card mb-2">
+                                        <div class="card-body">
+                                            <img class="product-image" src="images/product1.png" alt="Product Image">
+                                            <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                                            <p class="product-category">UBRUKOPI</p>
+                                            <div class="rating">
+                                                <span class="star active"><i class="fas fa-star"></i></span>
+                                                <span class="star active"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="rating-count">(2)</span>
+                                            </div>
+                                            <p class="product-price">Rp 19.999</p>
+                                            <div class="icon">
+                                                <i class="far fa-heart mr-3"></i>
+                                                <i class="fas fa-shopping-bag"></i>
+                                            </div>
+                                        </div>
+                                    </div>                                                             
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="center-wrapper">
+                                <div class="product-wrapper">
+                                    <div class="card mb-2">
+                                        <div class="card-body">
+                                            <img class="product-image" src="images/product1.png" alt="Product Image">
+                                            <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                                            <p class="product-category">UBRUKOPI</p>
+                                            <div class="rating">
+                                                <span class="star active"><i class="fas fa-star"></i></span>
+                                                <span class="star active"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="star"><i class="fas fa-star"></i></span>
+                                                <span class="rating-count">(2)</span>
+                                            </div>
+                                            <p class="product-price">Rp 19.999</p>
+                                            <div class="icon">
+                                                <i class="far fa-heart mr-3"></i>
+                                                <i class="fas fa-shopping-bag"></i>
+                                            </div>
+                                        </div>
+                                    </div>                                                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="dist/fontawesome/js/all.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/tab-menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link href="dist/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="justify-content-end">
+            <div class="search-container mt-1 mb-1">
+                <form action="" method="get">
+                    <input type="text" placeholder="Cari produk" class="search-input">
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+    
+            <div class="icon-container">
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-bag-shopping"></i></a>
+                <div class="dropdown">
+                    <a href="#" class="user-icon"><i class="far fa-user"></i>  &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="active">BELANJA &#9662;</a>
+                    <div class="dropdown-content right">
+                      <a href="#">Submenu 1</a>
+                      <a href="#">Submenu 2</a>
+                      <a href="#">Submenu 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="breadcrumbs">
+            <a href="#">Home</a> >>
+            <a href="#">Produk</a> >>
+            <span class="active">Roasted Bean</span>
+        </div> 
+
+        <div class="container mt-2">
+            <div class="sidebar">
+                <ul class="sidebar-menu">
+                    <div class="accordion">
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                URUTKAN BERDASARKAN
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <h5>Harga</h5>
+                                <div class="range-container">
+                                    <div class="sliders-control">
+                                        <input id="fromSlider" type="range" value="10" min="1000" max="1000000"/>
+                                        <input id="toSlider" type="range" value="40" min="1000" max="1000000"/>
+                                    </div>
+                                    <div class="form-slider">
+                                        <div class="container">
+                                            <div class="slider-time">Rp</div>
+                                            <input class="slider-input" type="text" id="fromInput" value="10" min="0" max="100"/>
+                                        </div>
+                                        <div class="strip">-</div>
+                                        <div class="container">
+                                            <div class="slider-time">Rp</div>
+                                            <input class="slider-input" type="text" id="toInput" value="40" min="0" max="100"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                Origin
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Aceh</span>
+                                    <span class="checkbox-count">(8)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Semarang</span>
+                                    <span class="checkbox-count">(2)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Bandung</span>
+                                    <span class="checkbox-count">(7)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Jawa</span>
+                                    <span class="checkbox-count">(5)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Amerika Selatan</span>
+                                    <span class="checkbox-count">(6)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Lain-lain</span>
+                                    <span class="checkbox-count">(8)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                Species
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Arabika</span>
+                                    <span class="checkbox-count">(128)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Robusta</span>
+                                    <span class="checkbox-count">(23)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Blend</span>
+                                    <span class="checkbox-count">(9)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                Roast Level
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Light Roast</span>
+                                    <span class="checkbox-count">(8)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Medium Roast</span>
+                                    <span class="checkbox-count">(2)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Dark Roast</span>
+                                    <span class="checkbox-count">(7)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Light to Medium Roast</span>
+                                    <span class="checkbox-count">(5)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                Tasted
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Sweet</span>
+                                    <span class="checkbox-count">(18)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Floral</span>
+                                    <span class="checkbox-count">(21)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Fruity</span>
+                                    <span class="checkbox-count">(7)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Nutty</span>
+                                    <span class="checkbox-count">(5)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Cocoa</span>
+                                    <span class="checkbox-count">(21)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Spices</span>
+                                    <span class="checkbox-count">(18)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="accordion-item active">
+                            <div class="accordion-header">
+                                Processing
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Honey White</span>
+                                    <span class="checkbox-count">(8)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Natural</span>
+                                    <span class="checkbox-count">(2)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Honey Gold</span>
+                                    <span class="checkbox-count">(7)</span>
+                                </label>
+                                <label for="accordion" class="checkbox-label">
+                                    <input type="checkbox" name="accordion" id="accordion">
+                                    <span class="checkbox-text">Honey Yellow</span>
+                                    <span class="checkbox-count">(5)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>                               
+                </ul>
+            </div>
+            <div class="content">
+                <div class="sorting-container">
+                    <div class="sorting-left">
+                        <div class="sorting-text">Menampilkan</div>
+                        <div class="sorting-data">
+                            <select id="show-select">
+                                <option value="12">12</option>
+                                <option value="16">16</option>
+                                <option value="20">20</option>
+                            </select>
+                        </div>
+                        <div class="sorting-text">dari 20</div>
+                    </div>
+                    <div class="sorting-right">
+                        <div class="sorting-text">Urutkan</div>
+                        <div class="sorting-data">
+                          <select id="sort-select">
+                            <option value="nama">Nama Produk</option>
+                            <option value="harga">Harga Produk</option>
+                          </select>
+                        </div>
+                    </div>
+                </div>
+                  
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="center-wrapper">
+                            <div class="product-wrapper">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <img class="product-image" src="images/product1.png" alt="Product Image">
+                                        <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                                        <p class="product-category">UBRUKOPI</p>
+                                        <div class="rating">
+                                            <span class="star active"><i class="fas fa-star"></i></span>
+                                            <span class="star active"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="rating-count">(2)</span>
+                                        </div>
+                                        <p class="product-price">Rp 19.999</p>
+                                        <div class="icon">
+                                            <i class="far fa-heart mr-3"></i>
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                             
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="center-wrapper">
+                            <div class="product-wrapper">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <img class="product-image" src="images/product1.png" alt="Product Image">
+                                        <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                                        <p class="product-category">UBRUKOPI</p>
+                                        <div class="rating">
+                                            <span class="star active"><i class="fas fa-star"></i></span>
+                                            <span class="star active"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="rating-count">(2)</span>
+                                        </div>
+                                        <p class="product-price">Rp 19.999</p>
+                                        <div class="icon">
+                                            <i class="far fa-heart mr-3"></i>
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                             
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="center-wrapper">
+                            <div class="product-wrapper">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <img class="product-image" src="images/product1.png" alt="Product Image">
+                                        <h3 class="product-title">ABID CLEVER DRIPPER 102</h3>
+                                        <p class="product-category">UBRUKOPI</p>
+                                        <div class="rating">
+                                            <span class="star active"><i class="fas fa-star"></i></span>
+                                            <span class="star active"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="star"><i class="fas fa-star"></i></span>
+                                            <span class="rating-count">(2)</span>
+                                        </div>
+                                        <p class="product-price">Rp 19.999</p>
+                                        <div class="icon">
+                                            <i class="far fa-heart mr-3"></i>
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                    </div>
+                                </div>                                                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination-container">
+                    <ul class="pagination">
+                      <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>                  
+            </div>
+        </div>  
+        
+    </div>
+
+    <script src="dist/fontawesome/js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
